@@ -5,69 +5,76 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/stylesheets/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <script src="https://kit.fontawesome.com/c6f9fe3736.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;1,300;1,400&display=swap" rel="stylesheet">
     <title>Flexbox</title>
 </head>
-<body>
+<body id="top">
    <header class="header">
-        <div class="container">
-            <div class="brand-box">
-                <img class ="brand" src="assets/media/sheshaping.png" alt="brand">
-            </div>
-            <div class="nav-box">
-                <nav class="nav">
+        <div class="container flex">
+            <a class="brand" href="#">
+                <img class ="brand-img" src="assets/media/sheshaping.png" alt="brand"> 
+            </a>
+            <nav class="nav">
                     <a class="a" href="#">Home</a>
                     <a class="a" href="#">generic</a>
                     <a class="a" href="#">elemets</a>
-                 </nav>
-            </div>
+            </nav>
         </div>
     </header>
     <main>
-        <article class="article-section">
+        <article class="article">
             <div class="container">
-                <div class="box box-1">
-                    <h1>welcome to Flexbox</h1>
-                    <p class="article-para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis vitae, aliquam sunt dolorem at porro ratione repudiandae praesentium laudantium in.
-                        consectetur adipisicing elit. Perspiciatis vitae, aliquam sunt dolorem at porro ratione repudiandae praesentium laudantium in.</p>
-                </div>
-                <div class="box box-2">
-                    <img src="assets/media/pic01.jpg" alt="">
+                <div class="flex">
+                    <div class="article-box">
+                        <h1 class="article-heading">welcome to Flexbox</h1>
+                        <p class="article-para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis vitae, aliquam sunt dolorem at porro ratione repudiandae praesentium laudantium in.
+                            consectetur adipisicing elit. Perspiciatis vitae, aliquam sunt dolorem at porro ratione repudiandae praesentium laudantium in.</p>
+                        <p class="article-para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis vitae, aliquam sunt dolorem at porro ratione repudiandae praesentium laudantium in.
+                                consectetur adipisicing elit. Perspiciatis vitae, aliquam sunt dolorem at porro ratione repudiandae praesentium laudantium in.</p>    
+                    </div>
+                    <div class="article-box">
+                        <img src="assets/media/pic01.jpg" alt="">
+                    </div>
                 </div>
             </div>
         </article>
-        <section class="gallery-section">
+        <section class="gallery">
             <div class="container">
-                <div class="box box-3">
-                    <img src="assets/media/pic03.jpg" alt="">
-                </div>
-                <div class="box box-4">
-                    <img src="assets/media/pic04.jpg" alt="">
-                </div>
-                <div class="box box-5">
-                    <img src="assets/media/pic05.jpg" alt="">
+                <h2 class="gallery-heading">Gallery</h2>
+                <div class="flex">
+                    <div class="gallery-box">
+                        <img src="assets/media/pic03.jpg" alt="">
+                    </div>
+                    <div class="gallery-box">
+                        <img src="assets/media/pic04.jpg" alt="">
+                    </div>
+                    <div class="gallery-box">
+                        <img src="assets/media/pic05.jpg" alt="">
+                    </div>
+                    <div class="gallery-box">
+                        <img src="assets/media/pic06.jpg" alt="">
+                    </div>
+                    <div class="gallery-box">
+                        <img src="assets/media/pic01.jpg" alt="">
+                    </div>
+                    <div class="gallery-box">
+                        <img src="assets/media/pic02.jpg" alt="">
+                    </div>
                 </div>
             </div> 
         </section>       
-        <section class="gallery-section-2">
-            <div class="container">
-                <div class="box box-6">
-                    <img src="assets/media/pic06.jpg" alt="">
-                </div>
-                <div class="box box-7">
-                    <img src="assets/media/pic01.jpg" alt="">
-                </div>
-                <div class="box box-2">
-                    <img src="assets/media/pic02.jpg" alt="">
-                </div>
-            </div>
-        </section>
         <footer class="footer">
-            <div class="container">
-                <small>
-                    &copy:SheHaping inc.
-                </small>
-            </div>
+                <div class="container">
+                  <nav>
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                  </nav>
+                </div> 
         </footer>
+        <a class="top-btn"href="#top">Top</a>
     </main>
    </body>
 </html>
