@@ -1,8 +1,82 @@
-<!-- 
-- Create a page using flexbox according to the layout shown below.
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/c6f9fe3736.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="assets/stylesheets/style.css">
 
-![Flex Shrink Property](https://raw.githubusercontent.com/suraj122/AC-STYLE-images/master/flexbox/ex-2.png)
-
-- Using CSS resets is necessary.
-- Use semantic tags and keep the nesting and indentation proper. 
--->
+    <title>Flexbox level 3</title>
+</head>
+<body>
+   <header class="header">
+    <div class="container flex">
+        <div class="brand">
+            <a href="#">
+                <img class="brand-img" src="assets/media/she shaping.png" alt="brand">
+            </a>
+        </div>
+        <nav class="nav">
+            <a class="heading-icons" href="#">
+                <img src="assets/media/icons/bell.svg" alt="bell">
+            </a>
+            <a class="heading-text"href="#">sarah jone</a>
+            <a class="heading-icon" href="#">
+                <img src="assets/media/icons/user.svg" alt="">
+            </a>
+        </nav>
+    </div>
+    </header> 
+    <main>
+        <section class="main-section">
+            <article class="container">
+                <div class="flex">
+                    <div class="col-1">
+                        <a href="#">
+                            <img src="assets/media/icons/dashboard.svg" alt="dashboard">dashboard
+                        </a>
+                        <a href="#">
+                            <img src="assets/media/icons/article.svg" alt="article">article
+                        </a>
+                        <a href="#">
+                            <img src="assets/media/icons/analytics.svg" alt="analytics">analytics
+                        </a>
+                        <a href="#">
+                            <img src="assets/media/icons/inbox.svg" alt="inbox">inbox
+                        </a>
+                        <a href="#">
+                            <img src="assets/media/icons/setting.svg" alt="setting">setting
+                        </a>
+                        <div class="colbtn">
+                            <img src="assets/media/icons/log-out.svg" alt="log-out">Log out
+                        </div>
+                    </div>
+                    <div class="col-2">
+                        <div class="col-2-img">
+                            <img src="assets/media/01.png" alt="">
+                        </div>
+                       
+                        <h1 class="col-2-heading">why we are doing Altcmapus</h1>
+                        <p class="col-2-text"> Altcmapus is an alternative to college that existed.Currently we are offering an in-house 6-month long program to train
+                            people to in quality software development, where they don't have to pay anything until hired </p>
+                        <p class="col-2-text">We live in the world of digital skills. these are evolving day-by-day so there is demand of skills professional who are serious 
+                            in terms of skills, will have a hard time surviving,well at least flourising
+                        </p>    
+                        <div class="btn">read more</div>
+                    </div>
+                </div>
+            </article>
+        </section>
+        <footer class="footer">
+            <div class="container flex">
+                <small class="small">&copy Altcampus</small>
+                <nav>
+                    <a class="footer-icon" href="#"><i class="fab fa-facebook-square"></i></a>
+                    <a class="footer-icon" href="#"><i class="fab fa-twitter-square"></i></a>
+                </nav>
+            </div>
+        </footer>
+    </main>
+</body>
+</html>
